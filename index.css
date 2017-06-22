@@ -1,0 +1,160 @@
+.top {
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    border-top: 5px solid #284c7e;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: rgb(40, 76, 126);
+    z-index: 9999
+}
+div {
+    display: block;
+}
+
+.sousuo{
+	float:right;
+}
+body{	
+	padding:0px;
+	margin:0px auto;
+	background-image:url(body_bg.gif);
+	background-repeat:repeat-x;
+	font-size:12px;
+	font-family:"Microsoft YaHei"!important;
+	background:#F0F0F0;
+}
+.nav {
+    width: 1000px;
+    height: 55px;
+    margin-top: 95px;
+    padding-top: 5px;
+    border-top: 1px solid #d6d6d6;s
+    position: relative;
+    z-index: 9999;
+	margin:0 auto;
+}
+a{
+	color:#333;
+	text-decoration:none;
+	
+}
+a:hover{
+	color:#0e6eb8;
+}
+
+
+div#content_bottom_left span{
+	float: right;
+	margin: 0px auto;
+}
+div#content_bottom_left img{
+	margin: 0px;
+}
+.academic{
+	background-image: url(师大新闻.png);
+	width: 340px;
+	height: 54px;
+	float: left;
+}
+.book_news{
+	background-image: url(师大新闻.png);
+	width: 340px;
+	margin-left: 25px;
+	height: 54px;
+	float: left;
+}
+.fengcai{
+	width: 700px;
+	clear: both;
+	height: 54px;
+	background-repeat: no-repeat;
+	float: left;
+	margin-top: 125px;
+}
+div.academic_list{
+	margin-top: 60px;
+	line-height: 20px;
+}
+div.book_news_list{
+	margin-top: 60px;
+	line-height: 20px;
+}
+div.fengcai_list{
+	margin-top: 60px;
+	background-repeat: no-repeat;
+}
+div.fengcai_list ul li{
+	list-style-type: none;
+	display: inline;
+}
+div.fengcai_list ul li img{
+	height: 136px;
+	padding: 10px;
+}
+#content_bottom_left{
+	float: left;
+	width: 705px;
+	height: 400px;
+}
+
+.kuaisu{float:right}
+
+
+#cotent_bottom_right{
+	background-image: url(show.png);
+	background-repeat: no-repeat;
+	float:right;
+	background-position: 100px 0px;
+}
+#cotent_bottom_right_1{
+	background-repeat: no-repeat;
+	margin-top: 30px;
+	width:560px;
+	height:580px;
+	margin-left: 15px;
+}
+div#cotent_bottom_right_1 img{
+	margin-left: 25px;
+	margin-top: 10px;
+}
+#cotent_bottom_right_2{
+	margin:20px 15px 15px 20px;
+}
+div#cotent_bottom_right_2 span{
+	color: red;
+	font-weight: bolder;
+}
+div#cotent_bottom_right_2 img{
+	margin-left: 200px;
+	margin-bottom: 5px;
+}
+ 
+
+
+
+
+#footer{
+	height: 105px;
+	clear: both;
+	text-align: center;
+	background-image: url(foot.gif);
+	font-weight: bolder;
+	line-height: 2em;
+	padding: 10px;
+}
+div#footer li{
+	display: inline;
+}
+
+
+
+.last{	
+	position:fixed;
+	bottom:0px;
+	background:yellow;
+}
