@@ -1,22 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>555</title>
-	<meta charset="utf-8">
-	<style type="text/css">
-		img:hover{
-		opacity:0.1;
-		}
-		a{
-			width:200px;
-			height:100px;
-			border:1px solid blue;
-			padding:1px 1px 1px 1px;
-		}
-		</style>
+	<meta charset="utf-8" />
+	<title>2-4-2</title>
+	<script src="jquery-3.2.1.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	  	$(function(){
+			$("#address").blur(function(){
+				if($(this).val()==""){
+					alert("用户名不能为空");
+				}
+			})	
+			$("#address").focus(function(){
+				$(this).val("");
+			})
+			$("#password1").blur(function(){
+				if($(this).val()==""){
+					alert("密码不能为空");
+				}
+			})	
+			$("#password1").focus(function(){
+				$(this).val("");
+			})
+
+			$("#password2").blur(function(){
+				if($(this).text()==$("#password1").text()){
+					alert("密码不一致");
+				}
+			})
+	    });
+	</script>
 </head>
 <body>
-		<a href="C:\Users\wangluyu\Pictures\Camera Roll\鸣人.jpg"><img src="C:\Users\wangluyu\Pictures\Camera Roll\鸣人.jpg" /></a>
-		<a href="C:\Users\wangluyu\Pictures\Camera Roll\蜡笔小新.jpg"><img src="C:\Users\wangluyu\Pictures\Camera Roll\蜡笔小新.jpg">
-		<a href="C:\Users\wangluyu\Pictures\Camera Roll\鸣人2.jpg""><img src="C:\Users\wangluyu\Pictures\Camera Roll\鸣人2.jpg"></a>
-</html>
+    用户名:<input type="text" id="address" value=""/>   
+    <br/><br/>
+	密码:<input type="text" id="password1" value=""/>  
+	<br/><br/>
+	确认密码:<input type="text" id="password2" value=""/>  
+	<br/><br/>
+	<input type="button" value="注册"/>
+</body>
+<html>
